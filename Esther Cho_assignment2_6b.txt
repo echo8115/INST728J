@@ -1,0 +1,26 @@
+<html>
+    <table>
+    <col width="200">
+    <col width="100">
+
+    <style>
+    table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+    
+    <tr>
+        <th colspan="2">A</th>
+        <th rowspan="3">B</th>
+        </tr>
+    <tr>
+        <th>0</th>
+        <th>1</th>
+        </tr>
+    <tr>
+        <th colspan="2">3</th>
+        </tr>
+        
+    </table>
+</html>
