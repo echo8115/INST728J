@@ -1,0 +1,26 @@
+<html>
+
+    <head>
+	   <meta charset=“utf-8”>
+	   <title> About Esther</title>
+    </head>
+    <body>
+        <h1>Background</h1>
+        <p>My name is Esther. I’ve been working as an architectural designer for the past three years, but starting this Fall, I’ll officially transition into Human-Computer Interaction. This class is the start of this new journey. After I graduate, I hope to be a part of the development of smart cities. 
+        </p>
+        <h2>Hobbies</h2>
+        <p>Before COVID 19, I loved exploring a new place, from a local café to a different country. But, due to COVID 19, I’ve been taking a break from it. Now, I’ve been trying to find more things to do at home, such as baking and cooking. I’ve made pound cakes, cheesecakes, and cookies so far. 
+        </p>
+        
+        <h3>List of foods I like</h3>
+            <ul>
+            <li>Sushi Roll</li>
+            <li>Korean food</li>
+            <li>Thai food</li>
+            <li>coffee</li>
+            <li>tea</li>
+            <li>pistachio ice-cream</li>
+        </ul>
+        
+    </body>
+</html>

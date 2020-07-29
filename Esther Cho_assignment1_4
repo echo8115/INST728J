@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>This is a practice</title>
+    </head>
+    
+    <body>
+    <h1>Structure of an HTML Page</h1>
+    <h2>How to Format Page Content</h2>
+        
+        <p>
+        I'd like to learn further about HMTL and its structure. </p>
+        
+        <h1>from here</h1>
+        <h6>to here</h6>
+        
+        <p>
+            This is <u>underlining tool</u> and this is <strong>BIG</strong> and the<strong><u>double</u></strong>
+        </p>
+        
+        <p>
+        "   
+            Not sure how to use the line break tool yet"
+        <br>
+            "
+            hope this is right"
+            
+        </p>
+        
+        <p>
+                ???
+        </p>
+        
+        <hr>
+        
+        <p>
+            <a href="umd.edu"</a>
+            "."
+        </p>
+        
+    </body>
+</html>
