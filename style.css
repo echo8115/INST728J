@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=Montserrat:wght@100&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size:30px;
+    line-height:1.5;
+    
+    background-color: white;
+    color: #333333;
+    margin:60px 0 48px 100px;
+    width: 1120px;
+}	
+
+header {
+    display: flex;
+    
+}
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    width: 80%;
+    padding-left: 50px;
+    
+}
+
+a {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    
+}
+.about a{
+    color:black;
+}
+
+a:hover {
+    text-decoration:underline;
+
+}
+
+.name, .column a{
+    font-family:'El Messiri', sans-serif;
+    font-size: 40px;
+}
+
+
+
+footer {
+    display: flex;
+    align-items: right;
+    justify-content: center;
+}
+
+
+.text-hover ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 50px;
+}
+.text-hover ul li a  { 
+    
+    font-family:'El Messiri', sans-serif;
+    font-size: 40px;
+    color:black;
+    position:relative;
+   text-decoration: none;
+    list-style-type: none;
+ }
+.text-hover ul li a span {
+    
+  position:absolute; padding-left: 300px; left:-9999px; bottom:-9999px; z-index:9999;
+    
+ }
+.text-hover ul li a:hover span { 
+  bottom: 20px; 
+  left:0;
+ }
+
+footer {
+    float: right;
+    padding-right: 100px;
+    color: black;
+}

@@ -1,0 +1,212 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About</title>
+        
+        <script type="text/javascript">
+            function validate() {
+                if(document.send.name.value=="") {
+                    alert("Please enter your Name!");
+                    document.send.name.focus();
+                    return falase;
+                    }
+                if(document.send.email.value=="") {
+                    alert("Please enter your email!");
+                    document.send.email.focus();
+                    return falase;
+                    }
+                if(document.send.message.value=="") {
+                    alert("Please enter your message!");
+                    document.send.message.focus();
+                    return falase;
+                    }
+              
+             return (true);
+            }
+    
+    
+    </script>
+        
+        <style>
+            
+            @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=Montserrat:wght@100&display=swap');
+            
+            .container{
+                
+                float: inherit;
+                width: 80%;
+                margin: auto;
+        }
+        
+             .header-container{
+                 
+                font-family:'El Messiri', sans-serif;
+                font-size: 25px;
+                text-align: center;
+                padding-top: 40px;
+                padding-bottom: 45px;
+                background-color: white;
+        
+        }
+            .header-container a {
+                
+                text-decoration: none;
+                text-decoration-style: none;
+                color: black;
+        }
+            
+            .footer-container {
+
+                clear : both;
+                font-family: 'Montserrat', sans-serif;
+                font-size:12px;
+                color: black;
+                background-color: white;
+                text-align: center;
+                padding: 60px;
+            
+        }
+          
+
+            .column{
+                    
+                float: left;
+                width:50%;
+                padding: 60px 10px 0 0px;
+        }
+            .column_about{
+                
+                float: left;
+                padding: 30px;
+        
+        }
+            .contact {
+                
+                font-family: 'Montserrat', sans-serif, 600;
+                font-size:18px;
+                font-weight: 600;
+                padding: 30px 60px 30px 30px;
+              
+        }  
+            .contact p {
+                padding-left: 10px;
+            }
+            section img {
+                
+                max-height: 70%;
+                max-width: 96%;  
+                
+        }
+            section div {
+        
+                font-family: 'Montserrat', sans-serif;
+                font-size:18px;
+                line-height:1.5;
+                
+                
+        }
+          
+           
+        </style>
+        
+        
+    </head>
+    
+
+
+
+<body>   
+     <div class="main-container">
+        <div class="container">
+        
+        <div class="header-container">
+            <header>
+                <a href="index.html">esther cho</a>
+            </header>
+    </div>
+            
+    <div class="column">
+    <section>
+
+        
+        <div>
+            <p>My name is Esther Cho and I'm passionate about improving the lives of others through design. I'm constantly learning new things everyday and love meeting people who are motivated and unafraid of sharing their ideas with the world.
+
+             </p>
+            <img src=file:///Users/euncho/Desktop/HTML:CSS/Final/Images/Esther%20Cho.jpg>
+            <a href=file:///Users/euncho/Desktop/HTML:CSS/Final/Images/Esther%20Cho-CV.pdf>Resume</a>
+        </div>
+    
+    </section>
+    </div>
+    
+    <div class="column_about">
+    <div class="contact">
+        <p>Let's chat.</p> 
+        
+        <table width="100%" align="center" cellpadding="3" cellspacing="0"> 
+            
+ <form name="send" method="post" action="messagesent.html" onsubmit="return(validate());">
+                
+               
+                <tr>
+                    <td></td>
+                    <td><label for="Name" style= "font-family: 'Montserrat'" "sans-serif;
+                font-size:18px">Name</label></td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td><input type="text" name= "name" size="40"></td>
+                </tr>
+     
+                <tr>
+                    <td></td>
+                    <td><label for="Email" style= "font-family: 'Montserrat'" "sans-serif;
+                font-size:18px">Email address<span aria-hidden="true" class="required"></span></label> 
+                    </td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td><input type="text" name= "email" size="40">
+                    </td>
+                </tr>
+     
+                <tr>
+                    <td> </td>
+                    <td valign="top"><label for="message" style= "font-family: 'Montserrat'" "sans-serif;
+                font-size:18px">Your message</label></td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td><textarea rows = "10" cols = "30" name = "message"> </textarea></td>
+                </tr>
+             
+                <tr>
+                    <td></td>
+                    <td><label for="send"></label> </td>
+                    <td><input type="submit" value="send" style= "font-family: 'Montserrat'" "sans-serif;
+                font-size:18px"> </td></tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+     
+            </form>
+        </table>
+    </div>
+            </div>
+            
+    <div class="footer-container">
+		<footer><div>
+            <p>esther cho 2020</p>
+    
+            
+            </div></footer>
+		</div>
+
+            
+         </div>
+    </div>
+</body>
+    
+</html>
